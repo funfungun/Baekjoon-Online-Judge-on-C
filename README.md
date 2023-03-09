@@ -1,1 +1,1 @@
-# Baekjoon-Online-Judge-on-C
+BOJ(on C) 실버 이상 문제만 올리는 곳
