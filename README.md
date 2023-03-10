@@ -1,1 +1,1 @@
-BOJ(on C) 실버 이상 문제만 올리는 곳
+practice BOJ on C99
