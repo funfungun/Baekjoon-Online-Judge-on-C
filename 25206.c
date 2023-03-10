@@ -6,7 +6,7 @@ int main()
     double point_num = 0.0;
     double pointxgrade = 0.0;
     
-    for(int i=0; i<20; i++)
+    for(int i=0; i<20; i++)//단순 구현
     {
         char s[51];
         scanf("%s", s);
