@@ -13,7 +13,7 @@ int compare(const void *index1, const void *index2)//오름차순
         return -1;
 }
 
-int search(int s[], int low, int high, int key)//이분 탐색
+int search(int s[], int low, int high, int key)//이진 탐색
 {
     int mid;
     
@@ -44,7 +44,7 @@ int main()
     for(int i=0; i<N; i++)
         scanf("%d", &A[i]);
         
-    qsort((void *)A, (size_t)N, sizeof(int), compare);//퀵 정렬
+    qsort((void *)A, (size_t)N, sizeof(int), compare);//퀵 정렬 라이브러리
     
     int M;
     scanf("%d", &M);
