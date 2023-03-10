@@ -29,7 +29,7 @@ int main()
             scanf("%d", &temp[i]);
     }
     
-    qsort((void *)temp, (size_t)(N+M), sizeof(int), compare);//퀵 정렬
+    qsort((void *)temp, (size_t)(N+M), sizeof(int), compare);//퀵 정렬 라이브러리
     
     for(int i=0; i<N+M; i++)
         printf("%d ", temp[i]);
