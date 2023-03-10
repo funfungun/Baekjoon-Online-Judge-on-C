@@ -1,10 +1,10 @@
+//c언어로 쉽게 풀어쓴 자료구조 p.122 참고
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
 #define MAX_STACK_SIZE 51
-
-//c언어로 쉽게 풀어쓴 자료구조 p.122 참고
 
 typedef char element;//문자형 요소
 
