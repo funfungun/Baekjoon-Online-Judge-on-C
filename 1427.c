@@ -11,7 +11,7 @@ int compare(const void *index1, const void *index2)
         return 0;
         
     else
-        return 1;//오름차순 or 내림차순 선택 가능하다!
+        return 1;//오름차순 or 내림차순 선택 가능
 }
 
 int main()
