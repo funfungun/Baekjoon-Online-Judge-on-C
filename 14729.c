@@ -23,7 +23,7 @@ int main()
     for(int i=0; i<N; i++)
         scanf("%lf", &arr[i]);
         
-    qsort((void *)arr, (size_t)N, sizeof(double), compare);//퀵 정렬
+    qsort((void *)arr, (size_t)N, sizeof(double), compare);//퀵 정렬 라이브러리
     
     for(int i=0; i<7; i++)
         printf("%.3f\n", arr[i]);
