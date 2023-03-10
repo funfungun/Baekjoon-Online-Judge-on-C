@@ -9,13 +9,13 @@ int checker(char s[])//체크 함수(1이면 yes, 0이면 no)
         {
             for(int j=i+2; j<strlen(s); j++)//앞의 문자가 기준점
             {
-                if(s[i] == s[j])//나머지 문자열 중에 같은 문자가 있으면 0반환
+                if(s[i] == s[j])//나머지 문자열 중에 같은 문자가 있으면 0 반환
                     return 0;
             }
         }
     }
     
-    return 1;//0이 반환되지 않은 경우에는 1반환
+    return 1;//0이 반환되지 않은 경우에는 1 반환
 }
 
 int main()
