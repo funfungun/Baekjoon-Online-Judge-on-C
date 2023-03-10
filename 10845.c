@@ -65,7 +65,7 @@ element front(QueueType *q)
     if(empty(q))
         return -1;
 
-    return q->data[(q->front)+1];//front는 가장 앞 요소 바로 전을 가리키므로
+    return q->data[(q->front)+1];//front는 가장 앞 요소 바로 전을 가리킴
 }
 
 //peek rear 함수
