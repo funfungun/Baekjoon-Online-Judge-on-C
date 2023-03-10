@@ -1,6 +1,7 @@
+// c언어로 쉽게 풀어쓴 자료구조 p.61 참고
+
 #include <stdio.h>
 
-// c언어로 쉽게 풀어쓴 자료구조 p.61 참고
 int count = 0;
 
 void count_hanoi(int n, int from, int temp, int to)//수행 횟수를 계산을 위해 전역 변수를 사용
