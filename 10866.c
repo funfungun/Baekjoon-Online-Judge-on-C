@@ -6,7 +6,7 @@
 
 typedef int element;
 
-typedef struct//덱 타입 정의(덱은 원형큐에서 연산만 추가된 것)
+typedef struct//덱 타입 정의(덱은 원형큐에서 연산만 추가됨)
 {
     element data[MAX_DEQUE_SIZE];
     int front;
