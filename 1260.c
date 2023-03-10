@@ -116,7 +116,7 @@ void bfs(GraphType *g, int v)
     {
         v = dequeue(&q);//일단 큐에서 정점을 삭제
         
-        for(int w=1; w<=g->n; w++)//남은 모든 정점에 대해서
+        for(int w=1; w<=g->n; w++)//남은 모든 정점에 대해
         {
             if(g->adj_mat[v][w] && !visited_bfs[w])//시작 정점과 서로 인접해 있고, 아직 방문하지 않았으면
             {
