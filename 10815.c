@@ -13,7 +13,7 @@ int compare(const void *index1, const void *index2)//오름차순
         return -1;
 }
 
-int search(int s[], int low, int high, int key)//이분 탐색
+int search(int s[], int low, int high, int key)//이진 탐색
 {
     int mid;
     
@@ -55,7 +55,7 @@ int main()
         scanf("%d", &arr2[i]);
     
     for(int i=0; i<M; i++)
-        printf("%d ", search(arr1, 0, N-1, arr2[i]));//이분 탐색
+        printf("%d ", search(arr1, 0, N-1, arr2[i]));//이진 탐색
     
     return 0;
 }
