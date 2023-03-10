@@ -1,10 +1,10 @@
+//c언어로 쉽게 풀어쓴 자료구조 p.133 참고
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 #define MAX_STACK_SIZE 100
-
-//c언어로 쉽게 풀어쓴 자료구조 p.133 참고
 
 typedef char element;
 
