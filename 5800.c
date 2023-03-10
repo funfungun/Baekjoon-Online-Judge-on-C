@@ -28,7 +28,7 @@ int main()
         for(int j=0; j<N; j++)
             scanf("%d", &arr[j]);
             
-        qsort((void *)arr, (size_t)N, sizeof(int), compare);//퀵 정렬
+        qsort((void *)arr, (size_t)N, sizeof(int), compare);//퀵 정렬 라이브러리
         
         int min = arr[0];
         int max = arr[N-1];
