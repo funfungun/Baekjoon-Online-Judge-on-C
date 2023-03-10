@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_QUEUE_SIZE 2000000
+#define MAX_QUEUE_SIZE 2000000//큐 1 문제에서 크기만 변경
 
 typedef int element;
 
