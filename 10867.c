@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int compare(const void *index1, const void *index2)//오름차순
+int compare(const void *index1, const void *index2)//오름차순 라이브러리
 {
     if(*(int *)index1 > *(int *)index2)
         return 1;
