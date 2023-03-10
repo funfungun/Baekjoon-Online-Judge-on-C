@@ -5,7 +5,7 @@ void recursive(int n)//재귀함수는 자기 자신을 호출하는 함수라�
     if (n <= 0)
         return;
 
-    recursive(n - 1);//머리순환?
+    recursive(n - 1);//머리순환
 
     for (int i = 0; i < (n - 1) * 4; i++)
         printf("_");
@@ -30,7 +30,7 @@ void recursive2(int n)//재귀함수는 자기 자신을 호출하는 함수라�
         printf("_");
     printf("라고 답변하였지.\n");
 
-    recursive2(n - 1);//꼬리순환?
+    recursive2(n - 1);//꼬리순환
 }
 
 int main()
