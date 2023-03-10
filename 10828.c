@@ -17,7 +17,7 @@ typedef struct
 //스택 초기화 함수
 void init_stack(StackType *s)
 {
-    s->top = -1;//스택의 top 변수가 -1 값을 가지면 공백인 것
+    s->top = -1;//스택의 top 변수가 -1 값을 가지면 공백
 }
 
 //공백 검출 함수
