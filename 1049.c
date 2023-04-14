@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int compare(const void* index1, const void* index2)
+int compare(const void* index1, const void* index2)//오름차순
 {
     if(*(int *)index1 > *(int *)index2)
         return 1;
@@ -25,7 +25,8 @@ int main()
     
     for(int i=0; i<M; i++)
         scanf("%d %d", &A[i], &B[i]);
-        
+    
+    //퀵 정렬 라이브러리
     qsort((void *)A, (size_t)M, sizeof(int), compare);
     qsort((void *)B, (size_t)M, sizeof(int), compare);
     
