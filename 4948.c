@@ -3,8 +3,8 @@
 //에라토스테네스의 체
 int main()
 {
-    int N = 1000000;
-    int arr[1000001] = {0,};
+    int N = 300000;
+    int arr[300001] = {0,};
     
     for(int i=2; i<=N; i++)
         arr[i] = i;
