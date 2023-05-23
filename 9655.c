@@ -5,6 +5,7 @@ int main()
     int N;
     scanf("%d", &N);
     
+    //단순 규칙 찾기
     if(N%2 == 1)
         printf("SK");
         
